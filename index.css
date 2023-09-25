@@ -1,0 +1,26 @@
+body {
+    padding-top: 10%;
+    padding-left: 5%;
+    background-color: #b19cd9;
+  }
+
+* {
+    font-family: Big Caslon;
+  }
+  
+  h1 {
+    font-size:100px;
+    font-weight: 100;
+    color: white;
+  }
+  
+  
+  p, 
+  li {
+    font-size: 18px;
+  }
+  
+  
+  a {
+    text-decoration: none;
+  }
