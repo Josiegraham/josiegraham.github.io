@@ -12,6 +12,9 @@ h1 {
   position: fixed;
 }
 
+.projects {
+  background-color: #b19cd9;
+}
 .about-me {
   font-size: 20px;
   opacity: 0.5;
