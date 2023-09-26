@@ -1,25 +1,40 @@
-body {
-  font-family: Big Caslon;
+
+* {
+  font-family: Georgia;
   background-color: #b19cd9;
 }
 
-h1 {
-  color: Azure;
-}
+.Main_title {
+    padding-top: 10%;
+    padding-left: 5%;
+  }
+  
+  h1 {
+    font-size:100px;
+    font-weight: 100;
+    color: white;
+  }
+  
+  p, 
+  li {
+    font-size: 18px;
+  }
+  
+  
+  a {
+    text-decoration: none;
+  }
 
-.header {
-  background-color: CornflowerBlue;
-  position: fixed;
-}
-
-.projects {
-  background-color: #b19cd9;
-}
-.about-me {
-  font-size: 20px;
-  opacity: 0.5;
-}
-
-p.title {
-  font-weight: bold;
-}
+  .topnav a:hover {
+    background-color: #f2f2f2;
+    color: black;
+  }
+  .topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+  }
