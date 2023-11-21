@@ -1,43 +1,146 @@
-* {
-  font-family: Georgia;
-  background-color: #b19cd9;
+body {
+    font-family: serif;
+    background: url(Turbo_Island.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
- 
-.Main_title {
-  padding-top: 10%;
-  padding-left: 5%;
-}
-
-  h1 {
-    font-size: 100px;
-    font-weight: 100;
-    color: white;
-  }
-  
-  h2 {
-    font-size: 70px;
-    padding: 200px 50px;
-  }
-  p, 
-  li {
-    font-size: 18px;
-  }
-  
-  
-  a {
-    text-decoration: none;
-  }
-
-  .topnav a:hover {
-    background-color: #f2f2f2;
+.nav a:hover {
+    background-color: whitesmoke;
     color: black;
-  }
-  .topnav a {
+    border-radius: 3px;
+}
+
+.nav a {
+    position: fixed;
     float: right;
     display: block;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 20px;
+    margin-top: 8px;
     text-decoration: none;
     font-size: 17px;
-  }
+}
+
+.Bio {
+  display: flex; 
+  align-items: center;
+  padding-bottom: 20%;
+}
+
+.Bio h1, .Bio p {
+    margin-left: 5%;
+    margin-right: 15%;
+    transform: translate(100px, 100px);
+    background-color:  whitesmoke;
+    opacity: 75%;
+}
+
+.Bio img {
+border: 3px solid black;
+border-radius: 10%;
+max-width: 200px;
+height: auto; 
+transform: translate(100px, 100px)
+}
+
+.Article1, .Article2{
+  display: flex;
+  align-items: center;
+  border: 3px solid black;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  background-color: #f2f2f2;
+  transform: translate(115px, 80px);
+}
+
+.Article1:hover, .Article2:hover{
+    transform: translate(150px, 80px);
+}
+
+.Article2{
+    margin-bottom: 20%;
+}
+
+#Articles h1 {
+    transform: translate(10%, 0px);
+    font-size: 70px;
+    opacity: 75%;
+    background-color:  whitesmoke;
+    margin-right: 10%;
+}
+
+.Article1 h2, .Article1 p, .Article2 h2, .Article2 p {
+    margin-left: 5%;
+    margin-right: 15%;
+
+}
+
+.Article1 img, .Article2 img {
+border-radius: 5px;
+padding: 20px;
+max-width: 200px;
+height: auto; 
+}
+
+#Poetry h1{
+    opacity: 75%;
+    text-align: right;
+    margin-right: 10%;
+    margin-left: 120px;
+    font-size: 70px;
+    background-color: whitesmoke;
+    ;
+}
+
+.poem p, .poem h2, #Poetry ul{
+    padding-top: 10px;
+    margin-right: 20%;
+    text-align: right;
+}
+
+#bby, #cotp, #doao {
+    margin-left: 50%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    opacity: 75%;
+    transform: translate(0px, 50px);
+}
+
+#doao {
+    margin-bottom: 400px;
+}
+
+#Poetry ul{
+    text-align: right;
+    list-style-type: none;
+    color: black;
+    background-color: whitesmoke;
+    opacity: 75%;
+    border-radius: 10px;
+    margin-left: 75%;
+    margin-right: 10%;
+    padding-bottom: 10px;
+}
+
+a[href*='bby'], a[href*='cotp'], a[href*='doao']{
+    color: black;
+}
+
+.Contact {
+    background-color: white;
+    text-align: center;
+    opacity: 0.8;
+}
+
+footer {
+  background-color: #333;
+  margin: 40px 0px;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  opacity: 0.8;
+}
